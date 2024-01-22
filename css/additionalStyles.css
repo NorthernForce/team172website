@@ -88,7 +88,7 @@
 	bottom: 0;
 	right: 0;
 	display: inline-flex;
-	
+	z-index: 10000;
    cursor: pointer;
    align-items: center;
    justify-content: center;
