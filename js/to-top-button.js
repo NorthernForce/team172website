@@ -7,9 +7,9 @@ const scrollFunc = () => {
 
   let y = window.scrollY;
     if (y > 0) {
-    scrollToTopButton.className = "top-link show";
+    scrollToTopButton.className = "top-link show-to-top";
   } else {
-    scrollToTopButton.className = "top-link hide";
+    scrollToTopButton.className = "top-link hide-to-top";
   }
 };
 window.addEventListener("scroll", scrollFunc);
