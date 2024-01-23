@@ -99,13 +99,14 @@
    height: 80px;
    background-color: #e83e8c;
 }
-.top-link:hover{
-	visibility: visible;
- opacity: 1;
-}
+
 .show-to-top {
     visibility: visible;
     opacity: 0.5;
+	&:hover{
+
+		opacity: 1;
+	   }
   }
   
  .hide-to-top {
