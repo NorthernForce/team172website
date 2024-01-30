@@ -2,7 +2,6 @@ $(document).on('click', '.dropdown-menu', function (e) {
     e.stopPropagation();
   });
   
-ens
   if ($(window).width() < 992) {
     $('.dropdown-menu a').click(function(e){
       e.preventDefault();
