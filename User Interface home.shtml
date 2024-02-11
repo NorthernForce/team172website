@@ -1,86 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap eCommerce Page Template</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<html>
+	<body>
+		 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	  <link href="css/additionalStyles.css" rel="stylesheet">
-  </head>
-  <body>
-    <a class="top-link hide-to-top btn btn-primary" href="" id="js-top">
-      <svg viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
-      <span class="screen-reader-text">Back to top</span>
-    </a>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Northern Force Robotics</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <nav class="navbar-dark">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
-    <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="main_nav">
-
-<ul class="navbar-nav">
-
-<li class="nav-item dropdown bg-dark">
-    <a class="nav-link dropdown-toggle .bg-dark" href="#" data-toggle="dropdown">About Us</a>
-    <ul class="dropdown-menu">
-	  <li><a class="dropdown-item" href="#">The Team</a></li>
-	  <li><a class="dropdown-item" href="#">Who/Roster &raquo</a>
-		 <ul class="submenu dropdown-menu">
-		    <li><a class="dropdown-item" href="Code/Assets/Leaders.html">Leaders</a></li>
-		    <li><a class="dropdown-item" href="Code/Assets/Mentors.html">Mentors</a></li>
-		    <li><a class="dropdown-item" href="">Kids</a>
-			
-		    </li>
-		  
-		 </ul>
-     <li><a class="dropdown-item" href="#">FRC</a>
-	  </li>
-		
-	  
-    </ul>
-</li>
-<li class="nav-item dropdown bg-dark">
-    <a class="nav-link dropdown-toggle .bg-dark" href="#" data-toggle="dropdown">Impact</a>
-    <ul class="dropdown-menu">
-	  <li><a class="dropdown-item" href="Code/Assets/Impact/Outreach.html">Outreach</a></li>
-	  <li><a class="dropdown-item" href="Code/Assets/Impact/Lego League.html">Lego League</a></li>
-	  <li><a class="dropdown-item" href="Code/Assets/Impact/Stem Coliseum.html">Stem Coliseum</a></li>
-	  <li><a class="dropdown-item" href="Code/Assets/Impact/Summer Heat.html">Summer Heat</a></li>
-    </ul>
-</li>
-
-</ul>
-
-</div> <!-- navbar-collapse.// -->
-</nav>
-			  
-          </ul>
-       
-
-  
-
-          
-        </div>
-         <!--#include virtual="Code/Assets/search-list.html" -->
-      </div>
-    </nav>
-    <div class="container mt-3">
+		<!--#include virtual="Code/header.html"-->
+	<div class="container mt-3">
       <div class="row">
         <div class="col-12">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -91,21 +15,21 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="First slide">
+                <img class="d-block w-100" src="images/1920x600.gif" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Item 1 Heading</h5>
                   <p>Item 1 Description</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="Second slide">
+                <img class="d-block w-100" src="images/1920x600.gif" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Item 2 Heading</h5>
                   <p>Item 2 Description</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/1920x500.gif" alt="Third slide">
+                <img class="d-block w-100" src="images/1920x600.gif" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Item 3 Heading</h5>
                   <p>Item 3 Description</p>
