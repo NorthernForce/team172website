@@ -123,7 +123,7 @@
 		svg {
 		fill: #000000;
 	   }
-   }
+}
    .screen-reader-text {
 	position: absolute;
 	clip-path: inset(50%);
@@ -151,4 +151,7 @@
 		font-size: 1em;
 		clip: auto !important;
 	}
-   }
+}
+.head{
+	position:fixed;
+}
