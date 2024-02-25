@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top_bar {
+	display: flex;
+	align-items: center;
+}
+.items_container {
+  margin-top: 20px;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.check_out {
+    margin-top: 20px;
+    background-color: #1F883D;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    border: 0px;
+    font-size: 20px;
+}
+.listed_item {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin-left: 10px;
+}
+.separate {
+  width: 80%;
+  height: 1px;
+  background-color: #ddd;
+}
+.in_qut {
+  margin-left: 5px;
+  width: 40px;
+}
+.home {
+	height: 40px;
+	width: 40px;
+}
+.home:hover {
+	cursor: pointer;
+}
+
+/* popup stuff */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ops {
+	border: 0px;
+}
