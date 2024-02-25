@@ -1,10 +1,7 @@
-
-// Prevent closing from click inside dropdown
 $(document).on('click', '.dropdown-menu', function (e) {
     e.stopPropagation();
   });
   
-  // make it as accordion for smaller screens
   if ($(window).width() < 992) {
     $('.dropdown-menu a').click(function(e){
       e.preventDefault();

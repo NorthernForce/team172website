@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  height: 35px;
+}
+.search {
+  padding: 5px;
+  border: 0.5px solid #000000;
+  width: 300px;
+  height: 20px;
+}
+.go {
+  height: 32px;
+}
+.cart {
+  position: absolute;
+  margin-left: 30%;
+}
+.cart:hover {
+  cursor: pointer;
+}
+
+.display_items {
+  position: absolute;
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+
+.card {
+ width: 400px;
+ height: 250px;
+ overflow: hidden;
+ border-radius: 10px;
+ border: 1px solid grey;
+ margin-left: 18px;
+ margin-top: 15px;
+}
+.icon {
+  overflow: hidden;
+}
+.image {
+  transition: transform 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.2);
+}
+.cart_stuff {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.sub {
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub:hover {
+  background-color: #bbb;
+}
+.item_counter {
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.add {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add:hover {
+  background-color: #bbb;
+}
+a {
+	user-select: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #f0f0f0;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #888888;
+}
+
+.result {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.cart2 {
+  margin-left: 95%;
+}
+.cart2:hover {
+  cursor: pointer;
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrow_container {
+  position: absolute;
+  margin-left: 20px;
+  height: 35px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.arrow_container:hover {
+  cursor: pointer;
+}

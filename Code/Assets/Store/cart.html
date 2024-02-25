@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cart</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/cart.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+  		<!-- Modal content -->
+  		<div class="modal-content">
+   			 <span class="close">&times;</span>
+			
+    		<select width=300 style="width: 350px" class="ops">
+            <option value='blue'>PayPal</option>
+            <option value='green'>In Person</option>
+            <option value='red'>Red</option>
+            <option value='yellow'>Yellow</option>
+            <option value='' selected>
+              Select a payment method
+             </option>
+        	</select>
+  		</div>
+
+	</div>
+    <div class="container">
+		<img src="../../../images/home.png" class="home" onclick="home()" title="Home"></img>
+    <center>
+      <div class="items_container">
+        <div id="item_list" class="item_list">
+          <div class="listed_item">
+            <img src="../../../images/400X200.gif" class="icon">
+              <p class="item_name">t-shirt </p>
+              <p class="quantity"> quantity: </p>
+			  <input class="in_qut" id="in_qut" type="number"></input>
+              <p class="cost_label"> cost: </p>
+              <p class="cost">$14</p>
+          </div>
+        </div>
+        <div class="separate"></div>
+      </div>
+          <button class="check_out" onclick="check_out()">check out</button>
+        </center>
+    </div>
+</body>
+<script src="../../../js/cart.js"></script>
+</html>
